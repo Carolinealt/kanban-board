@@ -1,4 +1,4 @@
-import { Column } from './Column.model'
+import { Column } from './column.model'
 
 export interface Board {
     columns: Column[]

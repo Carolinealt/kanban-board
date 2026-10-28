@@ -1,5 +1,5 @@
-import {Card} from './Card.model'
+import { Card } from './card.model'
 
-export interface Column{
+export interface Column {
     cards: Card[]
 }
