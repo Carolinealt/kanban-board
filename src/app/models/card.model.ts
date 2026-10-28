@@ -1,6 +1,11 @@
+export type CardPriority = 'low' | 'medium' | 'high'
+
+
 export interface Card{
-    heading: string,
-    id: string,
-    description?: string,
-    date: Date,
+    title: string;
+    id: string;
+    description?: string;
+    createdAt: Date;
+    priority: CardPriority;
 }
+
