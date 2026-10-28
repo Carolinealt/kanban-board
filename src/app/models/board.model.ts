@@ -1,5 +1,7 @@
 import { Column } from './column.model'
 
 export interface Board {
-    columns: Column[]
+    id: string;
+    title: string;
+    columns: Column[];
 }
